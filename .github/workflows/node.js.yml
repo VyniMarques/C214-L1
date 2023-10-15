@@ -22,6 +22,7 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
+    - run: cd Aula\ 8/
     - run: npm ci
     - run: npm test
 
@@ -36,5 +37,6 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
+    - run: cd Aula\ 8/
     - run: npm ci
     - run: npm run build --if-present
